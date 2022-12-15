@@ -198,7 +198,7 @@ If you like this project...
 
 > Give credit to everyone who inspired your codebase.
 
-I would like to thank Yilikal Teshome and Mahdi Aghaali for contributing and collaburating with me. 
+I would like to thank Danys Linares and Mahdi Aghaali for contributing and collaburating with me. 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
