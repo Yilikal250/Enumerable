@@ -1,23 +1,23 @@
 module MyEnumerable
-  def all_method?
-    list.each do |e|
-      return false unless yield e
+    def all_method?
+      list.each do |e|
+        return false unless yield e
+      end
+      true
     end
-    true
-  end
-
-  def any_method?
-    list.each do |e|
-      return true if yield e
+  
+    def any_method?
+      list.each do |e|
+        return true if yield e
+      end
+      false
     end
-    false
-  end
-
-  def filter_method
-    result = []
-    list.each do |e|
-      result << e if yield e
+  
+    def filter_method
+      result = []
+      list.each do |e|
+        result << e if yield e
+      end
+      result
     end
-    result
-  end
 end
